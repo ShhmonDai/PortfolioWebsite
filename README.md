@@ -11,4 +11,6 @@
 
 <h3 align='center'> Hosted on Hostinger </h3>
 
+&nbsp;
 
+![IMG1](src/assets/portfolio.jpg "IMG 1")
