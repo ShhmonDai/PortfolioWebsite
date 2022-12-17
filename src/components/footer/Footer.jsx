@@ -24,7 +24,7 @@ const Footer = () => {
 
         <ul className="social_icon">
           <li> <a href="https://instagram.com/shh.mon" target="_blank" rel="noopener noreferrer"> <FiInstagram/> </a> </li>
-          <li> <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer"> <BsLinkedin /> </a> </li>
+          <li> <a href="https://www.linkedin.com/in/shhmon" target="_blank" rel="noopener noreferrer"> <BsLinkedin /> </a> </li>
           <li> <a href="https://github.com/ShhmonDai" target="_blank" rel="noopener noreferrer"> <FaGithub /> </a> </li>
           <li> <a href="https://dribbble.com" target="_blank" rel="noopener noreferrer"> <FiDribbble /> </a> </li>
         </ul>

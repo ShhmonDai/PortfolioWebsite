@@ -34,6 +34,34 @@ nav a.active {
     color: var(--color-white);
 }
 
+@media screen and (max-width: 1920px) {
+
+    nav {
+        gap: 0.5rem;
+    }
+
+    nav a {
+        padding: 0.1rem;
+        font-size: 0.9rem;
+    }
+
+}
+
+@media screen and (max-width: 1366px) {
+
+    nav {
+        padding: 0.4rem 1.7rem;
+        gap: 0.5rem;
+        bottom: 0.5rem;
+    }
+
+    nav a {
+        padding: 0.2rem;
+        font-size: 0.8rem;
+    }
+
+}
+
 @media screen and (max-width: 600px) {
 
 nav {

@@ -19,9 +19,9 @@ const data = [
     gif: GIF1,
     title: 'BLOOM - Interactive progress visualization and tracking website',
     tech: 'JS - MySQL - P5.JS - Handlebars.JS - Express.JS - JWT and Bcrypt',
-    github: 'https://github.com',
+    github: 'https://github.com/ShhmonDai/Bloom',
     demo: 'https://full-bloom.in',
-    demo_type: 'Live Demo'
+    demo_type: 'Website'
   },
   {
     id: 2,
@@ -39,9 +39,9 @@ const data = [
     gif: GIF4,
     title: 'Personal Portfolio',
     tech: 'React.JS - Node.JS - EmailJS',
-    github: 'https://github.com',
+    github: 'https://github.com/ShhmonDai/PortfolioWebsite',
     demo: 'https://shhmon.com',
-    demo_type: 'Home'
+    demo_type: 'Website'
   },
   {
     id: 4,

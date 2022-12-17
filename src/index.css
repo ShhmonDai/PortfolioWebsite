@@ -39,8 +39,10 @@
 
     --container-width-lg: 75%;
     --container-width-md: 86%;
-    --container-width-sm: 90%;   
+    --container-width-sm: 90%;
+    color-scheme: light;   
 }
+
 
 html {
     scroll-behavior: smooth;
@@ -58,7 +60,6 @@ body {
     background-image: url(../src/assets/bg-textureBorderMiddle3.png), url(../src/assets/bg-texture4.png), linear-gradient(#033333, #051522);
     background-size: 100vw, auto;
     background-repeat: no-repeat, auto;
-   
 }
 
 /* ======== GENERAL STYLES ============= */
@@ -138,6 +139,7 @@ img {
 
 
 
+
 /* =============== MEDIA QUERIES (MEDIUM DEVICES) ========= */
 
 @media screen and (max-width: 1024px) {
@@ -148,6 +150,18 @@ img {
     section {
 
         background-size: 100%, auto;
+        padding-bottom: 6rem;
+    }
+}
+
+@media screen and (max-width: 1366px) {
+
+    body {
+        background-size: 100vw, 40%;
+    }
+
+    section {
+        background-size: 90%, 50%;
         padding-bottom: 6rem;
     }
 }
