@@ -35,7 +35,7 @@ const Experience = () => {
               <SiReact className='experience__details-icon' />
               <div>
                 <h4>React.js</h4>
-                <small className='text-light'>Experienced</small>
+
               </div>
             </article>
             
@@ -44,7 +44,7 @@ const Experience = () => {
               <SiNodedotjs className='experience__details-icon' />
               <div>
                 <h4>Node.js</h4>
-                <small className='text-light'>Experienced</small>
+
               </div>
             </article>
 
@@ -52,7 +52,7 @@ const Experience = () => {
               <SiJavascript className='experience__details-icon' />
               <div>
                 <h4>Javascript</h4>
-                <small className='text-light'>Experienced</small>
+
               </div>
             </article>
 
@@ -60,7 +60,7 @@ const Experience = () => {
               <SiMysql className='experience__details-icon' />
               <div>
                 <h4>MySQL</h4>
-                <small className='text-light'>Experienced</small>
+
               </div>
             </article>
 
@@ -68,7 +68,7 @@ const Experience = () => {
               <SiHtml5 className='experience__details-icon' />
               <div>
                 <h4>HTML/CSS</h4>
-                <small className='text-light'>Experienced</small>
+
               </div>
             </article>
            
@@ -85,7 +85,7 @@ const Experience = () => {
               <SiBootstrap className='experience__details-icon' />
               <div>
                 <h4>Bootstrap</h4>
-                <small className='text-light'>Intermediate</small>
+                
               </div>
             </article>
 
@@ -93,7 +93,7 @@ const Experience = () => {
               <SiPhp className='experience__details-icon' />
               <div>
                 <h4>PHP</h4>
-                <small className='text-light'>Basic</small>
+                
               </div>
             </article>
 
@@ -101,7 +101,7 @@ const Experience = () => {
               <SiAmazonaws className='experience__details-icon' />
               <div>
                 <h4>AWS EC2</h4>
-                <small className='text-light'>Basic</small>
+                
               </div>
             </article>
 
@@ -109,7 +109,7 @@ const Experience = () => {
               <SiExpress className='experience__details-icon' />
               <div>
                 <h4>Express</h4>
-                <small className='text-light'>Basic</small>
+                
               </div>
             </article>
 
@@ -127,7 +127,7 @@ const Experience = () => {
               <SiAndroidstudio className='experience__details-icon' />
               <div>
                 <h4>Android Studio</h4>
-                <small className='text-light'>Basic</small>
+
               </div>
             </article>
 
@@ -135,7 +135,7 @@ const Experience = () => {
               <SiCplusplus className='experience__details-icon' />
               <div>
                 <h4>C++</h4>
-                <small className='text-light'>Basic</small>
+
               </div>
             </article>
 
@@ -143,7 +143,7 @@ const Experience = () => {
               <SiJava className='experience__details-icon' />
               <div>
                 <h4>Java</h4>
-                <small className='text-light'>Basic</small>
+
               </div>
             </article>
 
@@ -151,7 +151,7 @@ const Experience = () => {
               <SiVisualstudiocode className='experience__details-icon' />
               <div>
                 <h4>Visual Studio Code</h4>
-                <small className='text-light'>Experienced</small>
+
               </div>
             </article>
 

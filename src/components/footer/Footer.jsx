@@ -26,7 +26,7 @@ const Footer = () => {
           <li> <a href="https://instagram.com/shh.mon" target="_blank" rel="noopener noreferrer"> <FiInstagram/> </a> </li>
           <li> <a href="https://www.linkedin.com/in/shhmon" target="_blank" rel="noopener noreferrer"> <BsLinkedin /> </a> </li>
           <li> <a href="https://github.com/ShhmonDai" target="_blank" rel="noopener noreferrer"> <FaGithub /> </a> </li>
-          <li> <a href="https://dribbble.com" target="_blank" rel="noopener noreferrer"> <FiDribbble /> </a> </li>
+          <li> <a href="https://www.artstation.com/thor" target="_blank" rel="noopener noreferrer"> <FiDribbble /> </a> </li>
         </ul>
 
         <ul className="menu">
@@ -37,7 +37,7 @@ const Footer = () => {
           <li><a href="#contact">Contact</a></li>
         </ul>
 
-        <p>2022 Szymon Pozniewski</p>
+        <p>©2024 Szymon Pozniewski</p>
 
       </footer>
     </div>

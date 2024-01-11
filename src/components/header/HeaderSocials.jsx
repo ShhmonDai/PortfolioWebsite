@@ -9,7 +9,7 @@ const HeaderSocials = () => {
     <div className="header__socials">
       <a href="https://www.linkedin.com/in/shhmon" target="_blank" rel="noopener noreferrer"><BsLinkedin /></a>
       <a href="https://github.com/ShhmonDai" target="_blank" rel="noopener noreferrer"><FaGithub/></a>
-      <a href="https://dribbble.com" target="_blank" rel="noopener noreferrer"><FiDribbble/></a>
+      <a href="https://www.artstation.com/thor" target="_blank" rel="noopener noreferrer"><FiDribbble/></a>
       <a href="https://instagram.com/shh.mon" target="_blank" rel="noopener noreferrer"><FiInstagram /></a>
     </div>
   )

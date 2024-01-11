@@ -9,8 +9,37 @@ import { BsLinkedin } from 'react-icons/bs'
 import { FaGithub } from 'react-icons/fa'
 import { FiDribbble } from 'react-icons/fi'
 import ME2 from '../../assets/me-card2.jpg'
+import { useState, useEffect } from 'react'
+
+
 
 const Header = () => {
+  
+
+    const [card, setCard] = useState("card")
+
+    const listenScrollEvent = (event) => {
+      if (window.scrollY <= 50) {
+        return setCard("card")
+      } 
+      if (window.scrollY <= 400 && window.scrollY > 50) {
+        return setCard("card2")
+      }
+      if (window.scrollY > 400) {
+        return setCard("card")
+      }   
+    }
+
+    useEffect(() => {
+      window.addEventListener('scroll', listenScrollEvent);
+
+      return () =>
+        window.removeEventListener('scroll', listenScrollEvent);
+    }, []);
+  
+
+
+  
   return (
    <header>
     <div className="container header__container">
@@ -22,7 +51,7 @@ const Header = () => {
       <CTA />
       <HeaderSocials />
 
-      <div className="card">
+      <div className={card}>
         <div className="imgBox">
           <img src={ME} alt="Me"></img>
           <img src={ME2} alt="Me2"></img>
@@ -47,7 +76,7 @@ const Header = () => {
                 <a href="https://instagram.com/shh.mon" target="_blank" rel="noopener noreferrer"><FiInstagram /></a>
                 <a href="https://www.linkedin.com/in/shhmon" target="_blank" rel="noopener noreferrer"><BsLinkedin /></a>
                 <a href="https://github.com/ShhmonDai" target="_blank" rel="noopener noreferrer"><FaGithub /></a>
-                <a href="https://dribbble.com" target="_blank" rel="noopener noreferrer"><FiDribbble /></a>
+                <a href="https://www.artstation.com/thor" target="_blank" rel="noopener noreferrer"><FiDribbble /></a>
             </div>
           </div>
         </div>

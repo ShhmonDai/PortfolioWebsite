@@ -170,15 +170,16 @@ img {
 
 @media screen and (max-width: 600px) {
     body{
+
         background-size: 100vw, 140%;
     }
 
     .container {
-        width: var(--container-width-sm);
+        width: 100vw;
     }
 
     section {
-        background-size: 100%, 180%;
+        background-size: 100%;
     }
 
     section > h2 {

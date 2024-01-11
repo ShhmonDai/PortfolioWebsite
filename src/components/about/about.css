@@ -34,7 +34,7 @@
     background: url(../../../src/assets/cloud2.png) no-repeat;
     background-size: contain;
     overflow: visible;
-    opacity: 0.5;
+    opacity: 0.1;
 }
 
 .cloud2 {
@@ -42,7 +42,7 @@
     background: url(../../../src/assets/cloud.png) no-repeat;
     background-size: contain;
     overflow: visible;
-    opacity: 0.2;
+    opacity: 0.1;
 }
 
 .cloud#cloud1 {
@@ -403,6 +403,11 @@
 @media screen and (max-width: 600px) {
     .about__container {
     padding-top: 11rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
     }
 
     .clouds {
@@ -412,20 +417,34 @@
     .about__me {
         width: 25rem;
         margin: 0 auto 3rem;
+        top: 0rem;
     }
 
     .about__cards {
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
         gap: 0.5rem;
     }
+
 
     .about__card {
         padding: 1rem;
     }
-
+    
+    .about__content {
+        justify-content: center;
+        align-items: center;
+         width: 90vw;
+    }
 
     .about__content p {
         margin: 1.5rem 0;
+        font-size: 1rem;
+
+    }
+
+    .about__content h2 {
+        font-size: 1rem;
+    
     }
 
     .about__me .content .details .actionBtn {
@@ -443,14 +462,40 @@
 
 @media screen and (max-width: 400px) {
 
-    .about__cards {
-
-        grid-template-columns: repeat(1, 1fr);
-
+    .about__container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
     }
 
+
+    .about__cards {
+        grid-template-columns: 1fr;
+    }
+
+    .about__card h5 {
+        font-weight: 300;
+        font-size: 1rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .about__card small {
+        position: relative;
+        left: -0.5rem;
+        display: flex;
+        justify-content: center;
+        font-size: 0.9rem;
+        font-weight: 300;
+        color: var(--color-light);
+        padding-bottom: 0.1rem;
+    }
+
+
     .about__me {
-            max-width: 85%;
+        width: 80%;
+        margin: 0 auto 2rem;
     }
 
     .about__me-image {
@@ -462,4 +507,10 @@
         width: 21rem;
         height: 22rem;
         }
+
+    .about__content {
+        justify-content: center;
+        align-items: center;
+        width: 90vw;
+    }
 }
