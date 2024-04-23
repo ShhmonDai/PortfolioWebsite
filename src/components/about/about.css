@@ -303,7 +303,14 @@
     margin-top: 1.5rem;
     position: relative;
     z-index: 10;
-    background-color: #0e2124;
+
+    border-bottom: 2px solid;
+    border-top: 1px solid;
+    border-radius: 0 0 2rem 2rem;
+    border-color: rgba(245,187,150, 0.5);
+    backdrop-filter: blur(1px); 
+    background: linear-gradient(180deg,var(--color-bg-variant),transparent,transparent,transparent,transparent);
+    transition-duration: 500ms;
 
 
     /* border: 2px solid;
@@ -313,18 +320,27 @@
     background: linear-gradient(0deg,var(--color-bg-variant), transparent,transparent,transparent,transparent); */
 }
 
+.gradient-box:hover { 
+    border-top: 1.5px solid;
+    border-color: rgba(245,187,150, 0.8);
+    backdrop-filter: blur(10px);
+    background: transparent;
+    transition-duration: 500ms;
+}
+
 .gradient-box h2 {
     font-weight: 100;
     padding: 1.5rem 1.5rem 0 1.5rem;
     margin: 2rem 0 0 0;
     color: var(--color-primary);
+    text-align: center;
 }
 
 .gradient-box p {
     font-weight: 100;
     color: var(--color-white);
     padding: 1.5rem;
-    padding-bottom: 10rem;
+    padding-bottom: 5rem;
 
 
 
@@ -442,10 +458,7 @@
 
     }
 
-    .about__content h2 {
-        font-size: 1rem;
-    
-    }
+
 
     .about__me .content .details .actionBtn {
         gap: 1rem;

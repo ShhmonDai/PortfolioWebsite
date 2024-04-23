@@ -59,11 +59,16 @@ const Header = () => {
         <div className="details">
           <div className="content">
             <h2>Szymon Pozniewski</h2>
-            <h5>Junior Fullstack Developer, Designer, Artist</h5>
+            <h5>Software Developer, Designer, Artist</h5>
             <h4>Pronounced: Shh-mohn Poh-znieh-vski</h4>
             <h5>Thank you for taking your time to visit,
               Take a look around!
             </h5>
+
+              <h5>Additionally you can check out my:&nbsp;
+                <a href="https://shhmon.blog/" target="_blank" rel="noopener noreferrer">blog!</a> 
+              </h5>
+
 
             <ul className="quickNav">
               <li><a href="#portfolio">Portfolio</a></li>

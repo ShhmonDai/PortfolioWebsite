@@ -2,18 +2,20 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 3rem;
+  justify-items: center;
 }
 
 .service {
-  background: var(--color-bg-variant);
+  background: linear-gradient(180deg, var(--color-bg-variant),transparent);
   border-radius: 0 0 2rem 2rem;
-  border: 2px solid var(--color-primary);
+  border: 1px solid var(--color-primary);
   height: fit-content;
   transition: var(--transition);
 }
 
 .service:hover {
   background: transparent;
+  backdrop-filter: blur(10px);
   border-color: var(--color-primary-variant);
   cursor: default;
 }
@@ -68,5 +70,9 @@
   .services__container {
     grid-template-columns: 1fr;
     gap: 1.5rem;
+  }
+  
+  .service {
+    width: 90%;
   }
 }

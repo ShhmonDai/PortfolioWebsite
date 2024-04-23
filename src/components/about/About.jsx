@@ -11,6 +11,8 @@ const About = () => {
   return (
     <section id='about'>
 
+    {/* Animated Clouds. 
+
       <div className="clouds">
         <div className="cloud" id="cloud1"></div>
         <div className="cloud2" id="cloud2"></div>
@@ -18,6 +20,8 @@ const About = () => {
         <div className="cloud2" id="cloud4"></div>
         <div className="cloud" id="cloud5"></div>
       </div>
+      
+      */}
 
       <h5>Get To Know</h5>
       <h2>About Me</h2>
@@ -80,7 +84,7 @@ const About = () => {
           </div>
 
           <div className="gradient-box">
-            <h2>I am a New York City based junior Fullstack Web & Software Developer</h2>
+            <h2>I am a New York City based Software & Web Developer</h2>
 
             <p>
               As a developer I enjoy the entire process of bringing products to life. Starting from scratch with just an idea, wireframing, designing databases, 

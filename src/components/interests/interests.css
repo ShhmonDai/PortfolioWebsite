@@ -60,7 +60,7 @@
 /* ================ MEDIA QUERIES (SMALL DEVICES) ================= */
 @media screen and (max-width: 600px) {
   .container.interests__container {
-    width: auto;
+    width: 90%;
   }
 
   .swiper {
