@@ -2,29 +2,53 @@ import React from 'react'
 import './portfolio.css'
 
 
-import IMG1 from '../../assets/BloomP5.jpg'
-import IMG2 from '../../assets/FoodjP2.jpg'
-import IMG3 from '../../assets/DatabaseP2.jpg'
-import IMG4 from '../../assets/PortfolioP1.jpg'
+import IMG1 from '../../assets/BloomPic.jpg'
+import IMG2 from '../../assets/FJPic.jpg'
+import IMG3 from '../../assets/DatabasePic.jpg'
+import IMG4 from '../../assets/PortfolioPic.jpg'
+import IMG5 from '../../assets/BlogPic.jpg'
+import IMG6 from '../../assets/HorizonPic.jpg'
 
-import GIF1 from '../../assets/BloomGif2.gif'
-import GIF2 from '../../assets/FoodjGIF.gif'
-import GIF3 from '../../assets/PortfolioGIF3.gif'
-import GIF4 from '../../assets/PortfolioSiteGif.gif'
+import GIF1 from '../../assets/BloomGif.gif'
+import GIF2 from '../../assets/FJGif.gif'
+import GIF3 from '../../assets/DatabaseGif.gif'
+import GIF4 from '../../assets/PortfolioGif.gif'
+import GIF5 from '../../assets/BlogGif.gif'
+import GIF6 from '../../assets/HorizonGif.gif'
 
 const data = [
   {
     id: 1,
-    image: IMG1,
-    gif: GIF1,
-    title: 'BLOOM - Interactive progress visualization and tracking website',
-    tech: 'JS - MySQL - P5.JS - Handlebars.JS - Express.JS - JWT and Bcrypt',
-    github: 'https://github.com/ShhmonDai/Bloom',
-    demo: 'https://full-bloom.in',
+    image: IMG5,
+    gif: GIF5,
+    title: 'Szymons Eclectic Anecdotes - MERN Blog from scratch',
+    tech: 'React.JS - Node.JS - MongoDB - Firebase - Express.JS - JWT & Bcrypt - TinyMCE - Prism - Tailwind',
+    github: 'https://github.com/ShhmonDai/Personal-mern-blog',
+    demo: 'https://shhmon.blog/',
     demo_type: 'Website'
   },
   {
     id: 2,
+    image: IMG6,
+    gif: GIF6,
+    title: 'The Horizon Manager - MERN package manager',
+    tech: 'React.JS - Node.JS - MongoDB - Firebase - Express.JS - JWT & Bcrypt - Tailwind - Flowbite',
+    github: 'https://github.com/ShhmonDai/Horizon-Delivery-Manager',
+    demo: 'https://horizon-delivery-manager.onrender.com/',
+    demo_type: 'Website'
+  },
+  {
+    id: 3,
+    image: IMG1,
+    gif: GIF1,
+    title: 'BLOOM - Interactive progress visualization and tracking website',
+    tech: 'JS - MySQL - P5.JS - Handlebars.JS - Express.JS - JWT & Bcrypt',
+    github: 'https://github.com/ShhmonDai/Bloom',
+    demo: 'https://github.com/ShhmonDai/Bloom/blob/master/README.md',
+    demo_type: 'Presentation'
+  },
+  {
+    id: 4,
     image: IMG2,
     gif: GIF2,
     title: 'FoodJunkies - Android / IOS application - From Design to full Implementaion',
@@ -34,7 +58,7 @@ const data = [
     demo_type: 'Presentation'
   },
   {
-    id: 3,
+    id: 5,
     image: IMG4,
     gif: GIF4,
     title: 'Personal Portfolio',
@@ -44,7 +68,7 @@ const data = [
     demo_type: 'Website'
   },
   {
-    id: 4,
+    id: 6,
     image: IMG3,
     gif: GIF3,
     title: 'Healthcare Centers Database System Design - Complete Mysql Implementation, ER, UML & Relational Schemas',
@@ -53,7 +77,7 @@ const data = [
     demo: 'https://github.com/ShhmonDai/Healthcare-Centers-MySQL/blob/main/ProjectPresentation.pdf',
     demo_type: 'Presentation'
   }
-
+  
 ]
 
 const Portfolio = () => {

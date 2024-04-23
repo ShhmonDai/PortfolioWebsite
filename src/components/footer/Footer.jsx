@@ -4,7 +4,8 @@ import './footer.css'
 import {FiInstagram} from 'react-icons/fi'
 import { BsLinkedin } from 'react-icons/bs'
 import { FaGithub } from 'react-icons/fa'
-import { FiDribbble } from 'react-icons/fi'
+import { BsLaptop } from 'react-icons/bs'
+
 
 
 
@@ -26,7 +27,7 @@ const Footer = () => {
           <li> <a href="https://instagram.com/shh.mon" target="_blank" rel="noopener noreferrer"> <FiInstagram/> </a> </li>
           <li> <a href="https://www.linkedin.com/in/shhmon" target="_blank" rel="noopener noreferrer"> <BsLinkedin /> </a> </li>
           <li> <a href="https://github.com/ShhmonDai" target="_blank" rel="noopener noreferrer"> <FaGithub /> </a> </li>
-          <li> <a href="https://www.artstation.com/thor" target="_blank" rel="noopener noreferrer"> <FiDribbble /> </a> </li>
+          <li> <a href="https://shhmon.blog/" target="_blank" rel="noopener noreferrer"> <BsLaptop /> </a> </li>
         </ul>
 
         <ul className="menu">
