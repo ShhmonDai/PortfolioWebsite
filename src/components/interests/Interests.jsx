@@ -36,7 +36,7 @@ const data = [
   },
   {
     image: AVTR5,
-    title: 'Portrait of a Friend',
+    title: 'Game Sketch',
   },
 ]
 
