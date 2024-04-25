@@ -19,7 +19,7 @@ const Nav = () => {
 
   return (
     <nav>
-      <a href="#" ><AiOutlineHome /> Home</a>
+      <a href="#header" ><AiOutlineHome /> Home</a>
       <a href="#portfolio" ><RiServiceLine /> Portfolio</a>
       <a href="#about" ><AiOutlineUser/> About</a>
       <a href="#experience" ><BiBook/> Skills</a>

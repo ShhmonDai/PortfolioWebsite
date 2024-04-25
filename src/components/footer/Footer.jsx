@@ -31,7 +31,7 @@ const Footer = () => {
         </ul>
 
         <ul className="menu">
-          <li><a href="#">Home</a></li>
+          <li><a href="#header">Home</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#experience">Skills</a></li>
           <li><a href="#portfolio">Portfolio</a></li>

@@ -41,7 +41,7 @@ const Header = () => {
 
   
   return (
-   <header>
+   <header id="header">
     <div className="container header__container">
       <div className="header__intro">
         <h5 className="text-light">Hello, I'm</h5>
