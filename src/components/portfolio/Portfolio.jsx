@@ -35,7 +35,7 @@ const data = [
     tech: 'React.JS - Node.JS - MongoDB - Firebase - Express.JS - JWT & Bcrypt - Tailwind - Flowbite',
     github: 'https://github.com/ShhmonDai/Horizon-Delivery-Manager',
     demo: 'https://horizon-delivery-manager.onrender.com/',
-    demo_type: 'Website'
+    demo_type: 'Website - (Slow Load)'
   },
   {
     id: 3,
